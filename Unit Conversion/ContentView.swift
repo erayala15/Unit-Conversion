@@ -131,6 +131,8 @@ struct ContentView: View {
                 
                 Section {
                     Text(convertedNum, format: .number)
+                } header: {
+                    Text("Output")
                 }
             }
             .navigationTitle("Volume Conversion")
